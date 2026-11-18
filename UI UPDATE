@@ -27,8 +27,8 @@ Replace the entire contents of topbar.js with this file:
   'use strict';
 
   // -------- Supabase config (replace with your own project URL + publishable key) --------
-  const TOPBAR_SUPABASE_URL = 'PASTE-YOUR-SUPABASE-PROJECT-URL-HERE';
-  const TOPBAR_SUPABASE_KEY = 'PASTE-YOUR-SUPABASE-PUBLISHABLE-KEY-HERE';
+  const TOPBAR_SUPABASE_URL = 'https://sxwzkdcjljtuhetqfiom.supabase.co';
+  const TOPBAR_SUPABASE_KEY = 'sb_publishable_hWXsiQ1nuqQ7QjkZ7fVrMg_XrH3NtY7';
 
   // -------- CSS --------
   const css = `
