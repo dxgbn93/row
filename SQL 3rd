@@ -1,4 +1,4 @@
-Add cloud sync to my dashboard so Main (goals), Health (stack), Water, and Finance pages stay in sync across phone and web. The repo has these files:
+Add cloud sync to Dre's Dashboard so Main (goals), Health (stack), Water, and Finance pages stay in sync across phone and web. The repo has these files:
 index.html, health.html, gym.html, finance.html, po-water.html, topbar.js, sync.js.
 
 CONTEXT: Only gym.html currently syncs to Supabase. The other pages just save to that one device's localStorage, so phone ↔ web doesn't sync. The Supabase project URL + publishable key are already wired into topbar.js and gym.html. There's also a public.app_state table in Supabase with row-level-security policies allowing anon select/insert/update.
